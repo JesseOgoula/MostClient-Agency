@@ -81,7 +81,7 @@
   .header-ma .mimg .lg-text {
     position: absolute;
     top: 10px;
-    left: 10px;
+    left: -453px;
     bottom: 10px;
     right: 10px;
     -webkit-clip-path: url(#svgTextPath);
