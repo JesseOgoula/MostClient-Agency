@@ -78,7 +78,8 @@ main {
 
 img {
   width: 57%;
-  height: auto; }
+  height: auto;
+  padding-left: 5px; }
 
 figure {
   margin: 0; }
