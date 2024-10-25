@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 157.67 35.17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e52521;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        font-family: FuturaBT-LightCondensed, 'Futura LtCn BT';
+        font-size: 16.1px;
+        font-weight: 300;
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        font-family: FuturaBT-MediumCondensed, 'Futura MdCn BT';
+        font-size: 32.2px;
+        font-weight: 500;
+      }
+
+      .cls-5 {
+        fill: none;
+        stroke: #e52521;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="Calque_1-2" data-name="Calque 1">
+    <text class="cls-3" transform="translate(33.21 27.58)"><tspan class="cls-4" x="0" y="0">MostClient</tspan><tspan class="cls-2" x="102.87" y="0">.com</tspan></text>
+    <polygon class="cls-5" points="24.89 4.93 26.18 4.05 26.3 5.6 26.43 7.16 25.02 6.49 23.61 5.82 24.89 4.93"/>
+    <g>
+      <polygon class="cls-1" points="16.47 25.4 25.01 7.17 24.55 6.96 16.15 24.89 16.47 25.4"/>
+      <polygon class="cls-1" points=".13 27.07 13.43 19.81 13.09 19.47 .01 26.61 .13 27.07"/>
+      <polygon class="cls-1" points="16.72 24.86 13.32 19.31 12.89 19.57 16.47 25.41 16.72 24.86"/>
+    </g>
+    <rect class="cls-1" x="0" y="27.42" width="30.77" height=".37"/>
+  </g>
+</svg>
