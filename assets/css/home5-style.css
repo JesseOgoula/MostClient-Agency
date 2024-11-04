@@ -60,6 +60,10 @@
   .header-ma .caption .text {
     padding: 40px 40px 0 0;
     text-wrap: pretty; }
+
+  .header-ma .caption .text span{
+    color: #E42320;
+  }
   .header-ma .caption .img {
     position: absolute;
     bottom: -80px;
@@ -86,7 +90,7 @@
     right: 10px;
     -webkit-clip-path: url(#svgTextPath);
     clip-path: url(#svgTextPath);
-    background: rgba(255, 255, 255, 0.2);
+    background: rgb(197 23 23 / 20%);
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
     -webkit-transform: translateX(30%) translateY(60%);
@@ -588,9 +592,11 @@ h6 {
   line-height: 28px; }
 
 p {
-  font-size: 16px;
+  font-size: 62px;
   font-weight: 400;
-  margin: 0; }
+  margin: 0;
+  line-height: 66px; }
+  
 
 .sec-head .sub-head {
   position: relative;
