@@ -64,6 +64,20 @@
   .header-ma .caption .text span{
     color: #E42320;
   }
+
+  @keyframes rotateInfinite {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+  }
+
+  .img.sm-hide {
+    animation: rotateInfinite 10s linear infinite; /* 10s est la durée, ajustez-la pour accélérer ou ralentir la rotation */
+  }
+
   .header-ma .caption .img {
     position: absolute;
     bottom: -80px;
@@ -101,6 +115,10 @@
       font-style: italic; }
 
 /* --------------- Services --------------- */
+
+.sec-head h2{
+  color: #E42320;
+}
 .services-ds .item {
   padding: 30px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -111,7 +129,7 @@
   .services-ds .item:last-of-type {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
   .services-ds .item .title h2 {
-    font-size: 128px;
+    font-size: 104px;
     line-height: 128px;
     letter-spacing: -4px; }
   .services-ds .item .icon {
@@ -134,7 +152,7 @@
     background: #212121; }
     .services-ds .item:hover .title {
       margin-bottom: 0;
-      color: var(--main-color); }
+      color: #282757; }
 
 .marq-mp .main-marq {
   overflow: hidden;
@@ -182,6 +200,7 @@
   .works-ma .gallery-img .swiper-container {
     overflow: visible; }
   .works-ma .gallery-img .bg-img {
+   
     height: 480px;
     overflow: hidden;
     position: relative;
