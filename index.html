@@ -29,6 +29,11 @@
     <link rel="stylesheet" href="./common/css/common_style.css">
     <link rel="stylesheet" href="./assets/css/home5-style.css">
 
+    <!-- Calendly -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+
 </head>
 
 <body>
@@ -99,7 +104,7 @@
                 </ul>
             </div>
             <div class="topnav d-flex align-items-center">
-                <a href="#" class="butn butn-rounded">
+                <a href="#" class="butn butn-rounded" onclick="openCalendlyModal()">
                     <div class="d-flex align-items-center">
                         <span>Prendre rendez-vous</span>
                         <span class="icon ml-10">
@@ -1114,6 +1119,14 @@
 
     <!-- custom scripts -->
     <script src="./assets/js/scripts.js"></script>
+
+    <script type="text/javascript">
+        function openCalendlyModal() {
+            Calendly.initPopupWidget({ url: 'https://calendly.com/jesseogoula/appel-de-decouverte-by360' });
+            return false; // Empêche le lien de rediriger la page
+        }
+    </script>
+    
 
 </body>
 
