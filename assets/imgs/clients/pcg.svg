@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86.32 40">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-family: Montserrat-Black, Montserrat;
+        font-size: 14.05px;
+        font-weight: 800;
+      }
+
+      .cls-4 {
+        letter-spacing: .02em;
+      }
+    </style>
+  </defs>
+  <g id="Calque_1-2" data-name="Calque 1">
+    <text class="cls-3" transform="translate(.8 11.95)"><tspan class="cls-1" x="0" y="0">P</tspan><tspan x="10.23" y="0">a</tspan><tspan class="cls-4" x="19.21" y="0">r</tspan><tspan x="25.83" y="0">ti</tspan></text>
+    <text class="cls-3" transform="translate(0 23.49)"><tspan class="cls-1" x="0" y="0">C</tspan><tspan x="10.25" y="0">entris</tspan><tspan class="cls-2" x="54.69" y="0">t</tspan><tspan x="60.94" y="0">e</tspan></text>
+    <text class="cls-3" transform="translate(15.79 36.2)"><tspan x="0" y="0">Gabonais</tspan></text>
+  </g>
+</svg>
