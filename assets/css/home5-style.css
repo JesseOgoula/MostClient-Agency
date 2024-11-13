@@ -54,6 +54,19 @@
   padding-top: 145px ;
   padding-bottom: 95px;
   position: relative; }
+
+.header-ma .rdv{
+  padding-bottom: 0 !important;
+}
+
+.textrdv p{
+  font-size: 27px !important;
+  padding-top: 10px;
+}
+
+.textrdv .tel{
+  color: #E42320;
+}
   .header-ma .caption h1 {
     width: 100%;
     font-size: 70px;
