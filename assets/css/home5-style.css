@@ -545,7 +545,7 @@
     font-size: 14px;
     margin-top: 5px; }
   .footer-ds .sub-footer .copy .logo {
-    width: 25px; }
+    width: 60px; }
   .footer-ds .sub-footer .copy p {
     font-size: 14px; }
     .footer-ds .sub-footer .copy p a {
@@ -579,7 +579,7 @@ h1 {
   letter-spacing: -3px; }
 
 h2 {
-  font-size: 48px;
+  font-size: 35px;
   line-height: 60px;
   letter-spacing: -3px; }
 
@@ -598,19 +598,27 @@ h5 {
   line-height: 40px;
   letter-spacing: -1px; }
 
+.xp{
+  color: #E42320 !important;
+}
+
 h6 {
   font-size: 24px;
+  color: #E42320;
   line-height: 32px; }
 
 .sub-color {
-  color: #E42320; }
+  color: #fff; }
 
 .sub-head {
   font-size: 35px;
   line-height: 28px; }
 
+  .sub-head h6{
+    color: #E42320;
+  }
 p {
-  font-size: 44px;
+  font-size: 42px;
   font-weight: 400;
   margin: 0;
   line-height: 48px; }

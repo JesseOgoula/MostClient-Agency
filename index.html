@@ -32,7 +32,12 @@
     <!-- Calendly -->
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-
+    <style>
+        /* Style personnalisé pour ajuster la position du pop-up Calendly */
+        .custom-calendly-popup {
+            margin-top: 50px; /* Ajustez la valeur pour définir la position verticale */
+        }
+    </style>
 
 </head>
 
@@ -96,7 +101,7 @@
                         <a class="nav-link active" href="#">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Nos services</a>
+                        <a class="nav-link" href="#services">Nos services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
@@ -336,7 +341,7 @@
 
                 <!-- ==================== Start Services ==================== -->
 
-                <section class="services-ds">
+                <section class="services-ds" id="services">
                     <div class="container">
                         <div class="sec-head mb-70 d-flex align-items-center">
                             <div>
@@ -362,7 +367,7 @@
                                     
                                     <div>
                                         <div class="icon invert">
-                                            <img src="https://uithemez.com/i/hubfolio_HTML/common/imgs/icons/crown-solid.svg" alt="">
+                                            <img src="assets/imgs/crown-solid.svg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -377,7 +382,7 @@
                                     
                                     <div>
                                         <div class="icon invert">
-                                            <img src="https://uithemez.com/i/hubfolio_HTML/common/imgs/icons/bezier-curve-solid.svg" alt="">
+                                            <img src="assets/imgs/bezier-curve-solid.svg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -392,7 +397,7 @@
                                     
                                     <div>
                                         <div class="icon invert">
-                                            <img src="https://uithemez.com/i/hubfolio_HTML/common/imgs/icons/code-solid.svg" alt="">
+                                            <img src="assets/imgs/code-solid.svg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -407,7 +412,7 @@
                                     
                                     <div>
                                         <div class="icon invert">
-                                            <img src="https://uithemez.com/i/hubfolio_HTML/common/imgs/icons/chart-line-solid.svg" alt="">
+                                            <img src="assets/imgs/chart-line-solid.svg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -898,7 +903,7 @@
                     <div class="bg-img md-hide" data-background="assets/imgs/about.jpg"></div>
                     <div class="content">
                         <div class="item sec-head mb-100">
-                            <h6 class="sub-head sub-color mb-20">Notre expérience</h6>
+                            <h6 class="sub-head sub-color mb-20 xp">Notre expérience</h6>
                             <h3>Nous aidons les entreprises et entrepreneurs à atteindre efficacement leurs clients potentiels grâce à des stratégies d'acquisition ciblées et innovantes.</h3>
                             <div class="botm d-flex align-items-end pt-50 mt-100 bord-thin-top-light">
                                 <h2>03</h2>
@@ -1041,7 +1046,7 @@
                                         <img src="https://uithemez.com/i/hubfolio_HTML/common/imgs/icons/paper-plane.svg" alt="">
                                     </button>
                                 </form>
-                                <span>En vous abonnant, vous acceptez notre <a href="#0">Politique de confidentialité</a></span>
+                                <span>En vous abonnant, vous acceptez notre <a href="#">Politique de confidentialité</a></span>
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -1073,11 +1078,11 @@
                                 <div class="copy d-flex align-items-center md-mb30">
                                     <div>
                                         <div class="logo">
-                                            <img src="assets/imgs/Logo-f.svg" alt="">
+                                            <img src="assets/imgs/one.svg" alt="">
                                         </div>
                                     </div>
                                     <div class="ml-50">
-                                        <p>© 2024 <a href="#0">Mostclient Agency</a>. <br> Tous droits réservés</p>
+                                        <p>© 2024 <a href="#0">Mostclient</a>. <br> Tous droits réservés</p>
                                     </div>
                                 </div>
                             </div>
@@ -1122,7 +1127,8 @@
 
     <script type="text/javascript">
         function openCalendlyModal() {
-            Calendly.initPopupWidget({ url: 'https://calendly.com/jesseogoula/appel-de-decouverte-by360' });
+            Calendly.initPopupWidget({ url: 'https://calendly.com/jesseogoula/appel-de-decouverte' });
+            document.body.classList.add('custom-calendly-popup'); // Ajoute la classe pour ajuster le pop-up
             return false; // Empêche le lien de rediriger la page
         }
     </script>
